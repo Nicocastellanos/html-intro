@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+}
+
+.left {
+    display: grid;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(22, 24, 68);
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(170, 196, 191);
+}
+
+#mifoto {
+    margin-left: 15%;
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.info {
+    background-color: rgb(22, 24, 68);
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10%;
+    width: 30%;
+}
+
+.principal {
+    padding: 10px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.principal-2 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 60px;
+    color: rgb(44, 48, 128);
+}
+
+.parrafo {
+    padding: 10px;
+    opacity: 60%;
+}
+
+.list {
+    padding: 10px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(22, 24, 68);
+}
+
+.icons {
+    background-color: rgb(179, 169, 156);
+    width: 50px;
+    border-radius: 20%;
+}
+
+.icons:hover {
+    background-color: aliceblue;
+}
+
+.p {
+    color: blanchedalmond;
+    font-size: 12px;
+}
+
+#contact {
+    color: blanchedalmond;
+    font-size: 24px;
+    padding: -35px;
+}
+
+.material-symbols-outlined {
+    padding: 15px;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+.span {
+    color: rgb(56, 93, 150);
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#habi {
+    color: aliceblue;
+    padding-bottom: 15px;
+}
+
+.list-skill {
+    opacity: 60%;
+    color: blanchedalmond;
+    padding: 15px;
+}
+
+.p-skills {
+    color: rgb(65, 65, 139);
+}
+
+.skills-icons {
+    width: 35px;
+}

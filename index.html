@@ -1,69 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es ">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoja de vida</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="img/user.ico.png">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
+
 <body>
-    <h1>Hoja de vida</h1>
-    <h2>informacion general</h2>
-    <img src="" alt="mi foto">
-        <h3>Nombres y apellidos</h3>
-            <p> Nicolas Castellanos Rodriguez</p>
-        <h3>Email</h3>
-            <p>nicolas.castellanos012@gmail.com</p>
-        <h3>Telefono</h3>
-            <p>3013772211</p>
-        <h3>Ubicacion actual</h3>
-            <p></p>Bogota D.C</p>
-        <h3>Links</h3>
-        <a href="https://github.com/Nicocastellanos">GitHub</a>
-        <a href="https://www.linkedin.com/in/nicolas-castellanos-352548208/">Linkedin</a>
-    <h2>Experiencia</h2>
-    <ul>
-        <li>Bancolombia</li>
-        <ol>
-            <li>En bancolombia trabaje como desarrollador web y de aplicaciones.</li>
-            <li>tambien manejando un poco de bases de datos</li>
-        </ol>
-    </ul>
-    <ul>
-        <li>En Casten, una pequeña empresa de mi hermana</li>
-        <ol>
-           <li> desarrolando la pagina y la aplicacion para que la empresa se diera a conocer mas</li>
-        </ol>
-    </ul>
-    <ul>
-        <li>trabajando en mi propia empresa</li>
-        <ol>
-            <li>dirigiendo y creando videojuegos</li>
-        </ol>
-    </ul>
-    <table border="1">
-        <tr>
-            <th>Habilidades</th>
-            <th>Intereses</th>
-        </tr>
-        <tr>
-            <td>Javascript </td>
-            <td>aplicaciones moviles</td>
-        </tr>
-        <tr>
-            <td>Python</td>
-            <td>Aplicaciones web</td>
-        </tr>
-        <tr>
-            <td>react</td>
-            <td>desarrollo de videojuegos</td>
-        </tr>
-        <tr>
-            <td>c++</td>
-            <td>robotica e inteligencia artificial</td>
-        </tr>
-    </table><br>
-    <input type="text" value="Escribe aqui"/><br><br>
-    <textarea name="textarea" id="" cols="30" rows="10">write something :D</textarea><br>
-    <button>contactar</button>
+    <div class="container">
+        <div class="left">
+            <img src="img/foto.png" alt="Mi foto" id="mifoto">
+            <div class="skills">
+                <h2 id="habi">Habilidades</h2>
+                <p class="p-skills">Soy desarrollador full stack pero
+                    manejo mas lenguajes de programacion como: </p>
+                <ul class="list-skill">
+                    <li>C++ <img src="img/icons8-c-64.png" alt="c++" class="skills-icons"></li>
+                    <li>Python <img src="img/icons8-python-64.png" alt="python" class="skills-icons"></li>
+                    <li>Ruby <img src="img/icons8-ruby-64.png" alt="ruby" class="skills-icons"></li>
+                </ul>
+                <P class="p-skills">Ademas de esto se un poco acerca de la programacion
+                    de videojuegos manejando diferentes motores graficos como: </P>
+                <ul class="list-skill">
+                    <li>Unity <img src="img/icons8-unity-64.png" alt="Unity" class="skills-icons"></li>
+                    <li>Unreal Engine <img src="img/icons8-unreal-engine-64.png" alt="unreal" class="skills-icons"></li>
+                    <li>Game Maker <img src="img/icons8-game-maker-64.png" alt="GameMK" class="skills-icons"></li>
+                </ul>
+            </div>
+            <h2 id="contact">CONTACTO</h2>
+            <p class="p"><span class="material-symbols-outlined">
+                    mail
+                </span>nicolas.castellanos012@gmail.com</p>
+            <p class="p"><span class="material-symbols-outlined">
+                    phone_iphone
+                </span>3013772211</p>
+
+            <div class="links">
+                <a href="https://www.linkedin.com/in/nicolas-castellanos-352548208/" target="_blank">
+                    <img src="img/linkedin.png" alt="linkedin" class="icons">
+                </a>
+                <a href="https://github.com/Nicocastellanos" target="_blank">
+                    <img src="img/github-sign.png" alt="Github" class="icons">
+                </a>
+
+            </div>
+        </div>
+        <section class="right">
+            <h1 class="principal">Nicolas</h1>
+            <h1 class="principal-2">Castellanos</h1>
+            <h2 class="info">Datos <span class="span">personales</span></h2>
+            <ul class="list">
+                <li class="parrafo">Nombre: <strong>Nicolas Castellanos Rodriguez</strong></li>
+                <li class="parrafo">Edad: <strong>17 años</strong> </li>
+                <li class="parrafo">Lugar de residencia: <strong>Bogota D.C</strong></li>
+            </ul>
+            <h2 class="info">Experiencia <span class="span">laboral</span></h2>
+            <ul class="list">
+                <li class="parrafo">Casten</li>
+                <p class="parrafo">trabaje en esta empresa durante 3 años encargandome en el desarrollo web
+                    y de aplicaciones. haciendo desde ceros las paginas y las aplicaciones.
+                </p>
+                <li class="parrafo">Xataka</li>
+                <p class="parrafo">trabaje durante 2 años como desarrollador de videojuegos
+                    encarganome mayormente en la programacion de los juegos,
+                    pero tambien trabajando en otras areas como la de arte e historia.
+                </p>
+                <li class="parrafo">Cuchuco</li>
+                <p class="parrafo">actualmente trabajo en esta empresa creada por mi y dos amigos
+                    en la cual se enfoca en la creacion y desarrollo de videojuegos
+                    en esta empresa me encargo de la mayoria de areas que son la progamacion
+                    arte e historia un poco en la parte de musica </p>
+            </ul>
+            <h2 class="info">Pasa <span class="span">tiempos</span></h2>
+            <ul class="list">
+                <li class="parrafo">Tocar piano y guitarra</li>
+                <li class="parrafo">Jugar videojuegos</li>
+                <li class="parrafo">Dibujar</li>
+                <li class="parrafo">Escuchar musica</li>
+                <li class="parrafo">Salir con mis amigos</li>
+            </ul>
+    </div>
+
+    </section>
 </body>
+
 </html>
